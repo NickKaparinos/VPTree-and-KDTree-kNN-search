@@ -1,6 +1,6 @@
 /*!
   \file   main.cu
-  \brief  Constructiong of VP and KD trees and knn search using them
+  \brief  Construction of VP and KD trees and knn search using them
 
   \author Nikos Kaparinos
   \date   2020
