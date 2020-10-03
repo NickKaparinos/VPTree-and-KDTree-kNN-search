@@ -81,16 +81,6 @@ void VPTreeknnSearch(int query, vptree* node, int k, std::priority_queue<HeapIte
 		}
 
 	}
-
-	/*if (dist - tau <= node->median) {
-		VPTreeknnSearch(query, node->inner, k, heap, tau, thread);
-	}
-
-	if (dist + tau >= node->median) {
-		VPTreeknnSearch(query, node->outer, k, heap, tau, thread);
-	}*/
-
-
 }
 
 void KDTreeBuild(double* X, kdtree* root, int n, int d) {
@@ -114,7 +104,6 @@ void KDTreeBuildNode(double* X, kdtree* node, double* temp, int* indexArray, int
 			dataArr[i][j] = X[i * d + j];
 		}
 	}
-	//double(*dataArr)[d] = (double(*)[d])X;
 
 	node->axis = depth % d;
 
