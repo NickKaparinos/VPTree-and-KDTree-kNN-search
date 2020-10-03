@@ -6,4 +6,4 @@ VPTree and KDTree construction and knn search
 
 VP Tree is constructed using CUDA
 
-parallel knn search is conducted for every point in the dataset using Open MP
+Parallel knn search is conducted for every point in the dataset using Open MP
