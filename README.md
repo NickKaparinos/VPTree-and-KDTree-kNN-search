@@ -1,5 +1,5 @@
 # Aristotle University of Thessaloniki
-# Parallel and Distrubuted Systems Project 4
+Parallel and Distrubuted Systems Project 4
 2020
 
 VPTree and KDTree construction and knn search
