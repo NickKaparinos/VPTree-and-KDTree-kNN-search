@@ -3,6 +3,8 @@
 ## Nick Kaparinos
 ## 2020
 
+**Version 1.0**
+
 VPTree and KDTree construction and kNN search
 
 VP Tree is constructed using CUDA
