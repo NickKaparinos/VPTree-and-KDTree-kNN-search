@@ -3,10 +3,10 @@
 ## Nick Kaparinos
 ## 2020
 
-VPTree and KDTree construction and knn search
+VPTree and KDTree construction and kNN search
 
 VP Tree is constructed using CUDA
 
 Parallel knn search is conducted for every point in the dataset using Open MP
 
-knn results are validated using brute force
+kNN results are validated using brute force
